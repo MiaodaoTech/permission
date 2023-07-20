@@ -1,15 +1,15 @@
 <?php
 
 
-namespace Spatie\Permission\PermissionManager;
+namespace MdTech\Permission\PermissionManager;
 
 
-use Spatie\Permission\PermissionManager\Store\AppendAction;
-use Spatie\Permission\PermissionManager\Store\CreateAction;
-use Spatie\Permission\PermissionManager\Store\DeleteAction;
-use Spatie\Permission\PermissionManager\Store\Recorder;
-use Spatie\Permission\PermissionManager\Store\RemoveAction;
-use Spatie\Permission\PermissionManager\Store\UpdateAction;
+use MdTech\Permission\PermissionManager\Store\AppendAction;
+use MdTech\Permission\PermissionManager\Store\CreateAction;
+use MdTech\Permission\PermissionManager\Store\DeleteAction;
+use MdTech\Permission\PermissionManager\Store\Recorder;
+use MdTech\Permission\PermissionManager\Store\RemoveAction;
+use MdTech\Permission\PermissionManager\Store\UpdateAction;
 
 class LoggerRepository
 {

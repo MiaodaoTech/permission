@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Permission;
+namespace MdTech\Permission;
 
 use Illuminate\Support\Collection;
 

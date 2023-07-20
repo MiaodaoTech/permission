@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Permission\PermissionManager\Store;
+namespace MdTech\Permission\PermissionManager\Store;
 
 
 class Permission

@@ -1,10 +1,10 @@
 <?php
 
 
-namespace Spatie\Permission\PermissionManager;
+namespace MdTech\Permission\PermissionManager;
 
 
-use Spatie\Permission\Models\Permission;
+use MdTech\Permission\Models\Permission;
 
 class LocalRepository extends StoreAbstract
 {

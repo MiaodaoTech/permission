@@ -1,10 +1,10 @@
 <?php
 
-namespace Spatie\Permission\Middlewares;
+namespace MdTech\Permission\Middlewares;
 
 use Closure;
 use Illuminate\Support\Facades\Auth;
-use Spatie\Permission\Exceptions\UnauthorizedException;
+use MdTech\Permission\Exceptions\UnauthorizedException;
 
 class RoleMiddleware
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace Spatie\Permission\Commands;
+namespace MdTech\Permission\Commands;
 
 
 use Illuminate\Console\Command;
-use Spatie\Permission\PermissionManager\PermissionManager;
+use MdTech\Permission\PermissionManager\PermissionManager;
 
 class PermissionMigrateCommand extends Command
 {

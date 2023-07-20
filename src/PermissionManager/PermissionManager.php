@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\Permission\PermissionManager;
+namespace MdTech\Permission\PermissionManager;
 
 use Illuminate\Support\Arr;
-use Spatie\Permission\Helper\Helper;
+use MdTech\Permission\Helper\Helper;
 
 class PermissionManager
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\Permission\PermissionManager\Store;
+namespace MdTech\Permission\PermissionManager\Store;
 
 
-use Spatie\Permission\Helper\Helper;
+use MdTech\Permission\Helper\Helper;
 
 class DeleteAction extends BaseAction
 {

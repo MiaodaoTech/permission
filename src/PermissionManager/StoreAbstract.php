@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Spatie\Permission\PermissionManager;
+namespace MdTech\Permission\PermissionManager;
 
 
 abstract class StoreAbstract

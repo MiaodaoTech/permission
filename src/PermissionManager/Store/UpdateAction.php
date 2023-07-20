@@ -1,10 +1,10 @@
 <?php
 
-namespace Spatie\Permission\PermissionManager\Store;
+namespace MdTech\Permission\PermissionManager\Store;
 
 
 use Illuminate\Support\Arr;
-use Spatie\Permission\Helper\Helper;
+use MdTech\Permission\Helper\Helper;
 
 class UpdateAction extends BaseAction
 {

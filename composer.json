@@ -12,9 +12,9 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Freek Van der Herten",
-            "email": "freek@spatie.be",
-            "homepage": "https://spatie.be",
+            "name": "Md-Tech",
+            "email": "h2odumpling@vip.qq.com",
+            "homepage": "https://miaodaokeji.com/",
             "role": "Developer"
         }
     ],
@@ -32,7 +32,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Permission\\": "src"
+            "MdTech\\Permission\\": "src"
         },
         "files": [
             "src/helpers.php"
@@ -40,7 +40,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Permission\\Test\\": "tests"
+            "MdTech\\Permission\\Test\\": "tests"
         }
     },
     "scripts": {
@@ -52,7 +52,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Spatie\\Permission\\PermissionServiceProvider"
+                "MdTech\\Permission\\PermissionServiceProvider"
             ]
         }
     }

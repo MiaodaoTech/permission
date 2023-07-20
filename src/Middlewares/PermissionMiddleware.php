@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\Permission\Middlewares;
+namespace MdTech\Permission\Middlewares;
 
 use Closure;
-use Spatie\Permission\Exceptions\UnauthorizedException;
+use MdTech\Permission\Exceptions\UnauthorizedException;
 
 class PermissionMiddleware
 {

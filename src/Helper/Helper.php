@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Permission\Helper;
+namespace MdTech\Permission\Helper;
 
 
 class Helper
