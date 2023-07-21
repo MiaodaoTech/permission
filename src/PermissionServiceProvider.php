@@ -36,6 +36,7 @@ class PermissionServiceProvider extends ServiceProvider
                 Commands\Show::class,
                 Commands\PermissionMigrateCommand::class,
                 Commands\PermissionRollbackCommand::class,
+                Commands\PermissionMakeCommand::class,
             ]);
         }
 

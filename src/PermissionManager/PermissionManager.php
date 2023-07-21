@@ -140,13 +140,6 @@ class PermissionManager
     {
         $data = [];
         foreach ($items as $item) {
-            switch ($item['type']) {
-                case 'api':
-                    $item = $this->routeFormatter($item, $data[$item['name']] ?? null);
-                    break;
-                default:
-                    break;
-            }
             if (!$this->filter($item)) {
                 continue;
             }
@@ -155,34 +148,6 @@ class PermissionManager
             } else {
                 $data[$item['name']] = $item;
             }
-        }
-        return $data;
-    }
-
-    protected function routeFormatter($item)
-    {
-        $data = [
-            'name' => $item['name'],
-            'type' => $item['type'],
-            'scopes' => [],
-            'content' => ['url' => $item['path'], 'method' => $item['method']]
-        ];
-
-        if ($scope = $this->serverScopeName()) {
-            $data['scopes'][] = $scope;
-        }
-
-        if (!empty($item['rbac_ignore'])) {
-            $data['content']['rbac_ignore'] = $item['rbac_ignore'];
-        }
-
-        if ($item['auth'] === '*') {
-            $data['scopes'][] = '*';
-        } else {
-            foreach ($item['auth'] as $auth) {
-                $data['scopes'] = array_merge($data['scopes'], $this->parseRouteScope($auth));
-            }
-            usort($data['scopes'], [Helper::class, 'scope_cmp']);
         }
         return $data;
     }

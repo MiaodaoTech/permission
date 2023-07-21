@@ -9,6 +9,8 @@
 
 2. 添加功能使用
 
-   1. 按config中的 migration_path 设置，在对应文件夹中创建permission.log 文件，并在其中按格式写好权限
+   1. 执行 permission:make 增加迁移记录
+
+      此功能会查找应用了相应权限中间件的routes创建 CREATE 类型的迁移记录
    2. 执行 permission:migrate 进行迁移
    3. 执行 permission:rollback 进行回滚
